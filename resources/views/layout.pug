@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/styles/app.css')
+  body
+    .container
+      include ./partials/header
+      .row
+        block content
+      include ./partials/footer
+    script(src="/scripts/app.js")

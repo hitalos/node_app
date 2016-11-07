@@ -1,0 +1,7 @@
+*.log
+node_modules
+public/images
+public/scripts
+public/styles
+yarn.lock
+yarn-error.log

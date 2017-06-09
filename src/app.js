@@ -15,9 +15,9 @@ const routes = require('./routes/index')
 
 const app = express()
 app.set('view engine', 'pug')
-app.set('views', './resources/views')
+app.set('views', './src/resources/views')
 app.use(sassMiddleware({
-  src: 'resources',
+  src: 'src/resources',
   dest: './public',
   debug: false,
   indentedSyntax: true,
@@ -26,7 +26,7 @@ app.use(sassMiddleware({
 app.use(coffeeMiddleware({
   compress: true,
   debug: false,
-  src: 'resources'
+  src: 'src/resources'
 }))
 
 // uncomment after placing your favicon in /public

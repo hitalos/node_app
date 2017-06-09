@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "lint": "eslint *.js **/*.js"
+    "lint": "eslint bin/www src/app.js routes/*"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",

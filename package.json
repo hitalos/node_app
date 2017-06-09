@@ -9,19 +9,19 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "coffee-middleware": "^0.3.0",
-    "debug": "^2.6.1",
-    "express": "^4.14.1",
-    "helmet": "^3.4.0",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
     "node-sass-middleware": "^0.11.0",
-    "pug": "^2.0.0-beta11",
-    "serve-favicon": "^2.4.0"
+    "pug": "^2.0.0-rc.2",
+    "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.0",
     "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
   }
 }
